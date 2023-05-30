@@ -1,7 +1,7 @@
 {
-  "name": "insightedge-common",
-  "version": "0.1",
-  "description": "A template for creating npm packages using TypeScript and VSCode",
+  "name": "@insightedge/insightedge-common",
+  "version": "0.1.0",
+  "description": "Shared models and utilities for InsightEdge Core and UI, using TypeScript",
   "main": "./lib/index.js",
   "files": [
     "lib/**/*"
