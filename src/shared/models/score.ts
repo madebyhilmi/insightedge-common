@@ -1,4 +1,4 @@
-export class ScoreDto {
+export class Score {
   assists: number;
   creepScore: number;
   deaths: number;

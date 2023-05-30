@@ -1,4 +1,4 @@
-export class ItemDto {
+export class Item {
   canUse: boolean;
   consumable: boolean;
   count: number;

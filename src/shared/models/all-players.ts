@@ -1,5 +1,5 @@
-import { PlayerDto } from './player.dto';
+import { Player } from './player';
 
-export class AllPlayersDto {
-  players: PlayerDto[];
+export class AllPlayers {
+  players: Player[];
 }

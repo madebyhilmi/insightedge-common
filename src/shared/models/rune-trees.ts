@@ -1,7 +1,7 @@
-import { RuneDto } from './rune.dto';
+import { Rune } from './rune';
 
-export class RuneTreesDto {
-  keystone: RuneDto;
-  primaryRuneTree: RuneDto;
-  secondaryRuneTree: RuneDto;
+export class RuneTrees {
+  keystone: Rune;
+  primaryRuneTree: Rune;
+  secondaryRuneTree: Rune;
 }

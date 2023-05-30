@@ -1,10 +1,10 @@
-import { ItemDto } from './item.dto';
+import { Item } from './item';
 
-export class PlayerDto {
+export class Player {
   championName: string;
   isBot: boolean;
   isDead: boolean;
-  items: ItemDto[];
+  items: Item[];
   level: number;
   position: string;
   summonerName: string;

@@ -1,6 +1,6 @@
-import { SummonerSpellDto } from './summoner-spell.dto';
+import { SummonerSpell } from './summoner-spell';
 
-export class SummonerSpellsDto {
-  summonerSpellOne: SummonerSpellDto;
-  summonerSpellTwo: SummonerSpellDto;
+export class SummonerSpells {
+  summonerSpellOne: SummonerSpell;
+  summonerSpellTwo: SummonerSpell;
 }
