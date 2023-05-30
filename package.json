@@ -1,6 +1,6 @@
 {
-  "name": "typescript-npm-package-template",
-  "version": "0.0.0-development",
+  "name": "insightedge-common",
+  "version": "0.1",
   "description": "A template for creating npm packages using TypeScript and VSCode",
   "main": "./lib/index.js",
   "files": [
@@ -17,18 +17,9 @@
     "test": "jest --coverage",
     "typecheck": "tsc --noEmit"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ryansonshine/typescript-npm-package-template.git"
-  },
   "license": "MIT",
-  "author": {
-    "name": "Ryan Sonshine",
-    "email": "ryansonshine@users.noreply.github.com",
-    "url": "https://github.com/ryansonshine"
-  },
   "engines": {
-    "node": ">=12.0"
+    "node": ">=14.0"
   },
   "keywords": [
     "boilerplate",
@@ -41,10 +32,6 @@
     "semantic-release",
     "codecov"
   ],
-  "bugs": {
-    "url": "https://github.com/ryansonshine/typescript-npm-package-template/issues"
-  },
-  "homepage": "https://github.com/ryansonshine/typescript-npm-package-template#readme",
   "devDependencies": {
     "@ryansonshine/commitizen": "^4.2.8",
     "@ryansonshine/cz-conventional-changelog": "^3.3.4",
