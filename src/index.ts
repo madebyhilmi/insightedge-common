@@ -1,6 +1,7 @@
 export { AllPlayers } from './shared/models/all-players';
 export { Item } from './shared/models/item';
 export { Player } from './shared/models/player';
+export { PlayerGold } from './shared/models/player-gold';
 export { Rune } from './shared/models/rune';
 export { RuneTrees } from './shared/models/rune-trees';
 export { Score } from './shared/models/score';
