@@ -1,4 +1,4 @@
-export class Player {
+export class PlayerGold {
   championName: string;
   team: string;
   itemGold: number;
